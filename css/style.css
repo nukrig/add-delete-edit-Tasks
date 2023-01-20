@@ -1,0 +1,91 @@
+body{
+    width: 100%;
+    height: 96vh;
+    background-image: url(../image/image.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#add-skillInput,#add-skill{
+    width: 280px;
+    margin-bottom: 10px;
+    border: 0;
+    outline: none;
+    border-radius: 40px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#add-skill{
+    background-color: rgb(165, 240, 165);
+    transition: all;
+}
+#add-skill:hover{
+    opacity: 80%;
+}
+.skill{
+    width: 280px;
+    padding: 7px;
+    text-align: center;
+    background-color: blueviolet;
+    border: 2px solid rgb(68, 67, 67);
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-bottom: 3px;
+    transition: all;
+}
+.skill:hover{
+    opacity: 80%;
+}
+.skillProgress{
+    box-shadow: 5px 5px 20px green;
+    background-color: rgb(15, 182, 84);
+}
+#skills{
+    max-width: fit-content;
+} 
+
+#delete{
+    width: 130px;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    padding: 12px;
+    background-color: rgb(248, 80, 80);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all;
+}
+#delete:hover{
+    opacity: 80%;
+}
+.h1{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    text-shadow: 5px 5px 20px white;
+}
+.par{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
